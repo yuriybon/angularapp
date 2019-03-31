@@ -6,6 +6,10 @@ import { CarEditComponent } from './car-edit/car-edit.component';
 const routes: Routes = [
     { path: '', redirectTo: '/car-list', pathMatch: 'full' }
   , { path: 'car-list', component: CarListComponent }
+  , {
+    path: 'car-add',
+    component: CarEditComponent
+    }
   , { path: 'car-edit/:id', component: CarEditComponent }
 ];
 

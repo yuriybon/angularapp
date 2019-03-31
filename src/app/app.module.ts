@@ -8,7 +8,7 @@ import { FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarListComponent } from './car-list/car-list.component';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { CarEditComponent } from './car-edit/car-edit.component';
 
 @NgModule({
