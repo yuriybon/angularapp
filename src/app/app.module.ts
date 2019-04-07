@@ -10,12 +10,14 @@ import { AppComponent } from './app.component';
 import { CarListComponent } from './car-list/car-list.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CarEditComponent } from './car-edit/car-edit.component';
+import { LookListComponent } from './look-list/look-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarListComponent,
-    CarEditComponent
+    CarEditComponent,
+    LookListComponent
   ],
   imports: [
     BrowserModule,
