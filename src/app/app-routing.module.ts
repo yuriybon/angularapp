@@ -5,7 +5,7 @@ import { CarEditComponent } from './car-edit/car-edit.component';
 import { LookListComponent } from './look-list/look-list.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/car-list', pathMatch: 'full' }
+    { path: '', redirectTo: '/look-list', pathMatch: 'full' }
   , { path: 'car-list', component: CarListComponent }
   , {
     path: 'car-add',
