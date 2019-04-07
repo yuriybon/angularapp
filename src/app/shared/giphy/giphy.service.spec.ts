@@ -1,7 +1,8 @@
 import { TestBed } from '@angular/core/testing';
+import {describe, expect} from 'jasmine/types/';
+
 
 import { GiphyService } from './giphy.service';
-import {describe, expect} from 'jasmine';
 
 describe('GiphyService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
